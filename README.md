@@ -8,9 +8,9 @@ Docker Compose version v2.12.2
 
 ===========================Front end=======================================
 
-1. docker compose build && docker compose up
+### `docker compose build && docker compose up`
 
-To check the application go to browser and enter the below url
+To check the application go to browser and enter the below url<br>
 http://localhost:4000/
 
 
@@ -18,13 +18,13 @@ http://localhost:4000/
 
 For laravel I have used the sail build
 
-1. ./vendor/bin/sail up
+### `./vendor/bin/sail up`
 
-While running this command it automatically installed the required docker images.
+While running this command it automatically installed the required docker images.<br>
 
-I am using the mailhog to send mail.
+I am using the mailhog to send mail.<br>
 
-To check mail functionality. Go to your browser and enter the below url
+To check mail functionality. Go to your browser and enter the below url<br>
 
 http://localhost:8025/
 
