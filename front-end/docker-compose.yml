@@ -1,0 +1,12 @@
+version: '3'
+services:
+  react-ui:
+    build: .
+    ports:
+      - "4000:4000"
+    container_name: react-ui
+    # command: npm run start
+    env_file:
+      - ./.env
+    volumes:
+       - ./src:/usr/src/app/src
